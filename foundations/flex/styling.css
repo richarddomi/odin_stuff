@@ -6,10 +6,15 @@
 
 .menu-container {
     color: #fff;
-    background-color: blue;
+    background-color: grey;
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 .menu {
     border: 1px solid orange;
     width: 900px;
+    display: flex;
+    justify-content: space-around;
+    /* flex: 1; */
 }
