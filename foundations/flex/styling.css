@@ -11,10 +11,90 @@
     display: flex;
     justify-content: center;
 }
+
 .menu {
     border: 1px solid orange;
     width: 900px;
     display: flex;
     justify-content: space-around;
     /* flex: 1; */
+}
+
+.links {
+    border: 1px solid #fff;
+    /* For debugging */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.signup {
+    margin-left: auto;
+}
+
+.header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.social,
+.logo,
+.subscribe {
+    border: 1px solid #5995DA;
+}
+
+.social,
+.subscribe {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+    background-color: lightsalmon;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+}
+
+.footer-three {
+    flex: 2;
 }
