@@ -24,20 +24,26 @@ body{
     color: white;
     padding: 50px;
     flex-direction: column;
-    border: 10px solid red;
+    /* border: 10px solid red; */
     padding-top: 6px;
 }
 .container-m2 {
     display: flex;
     background-color: whitesmoke;
     color: black;
-    border: 10px solid blue;
+    flex-direction: column;
+    /* border: 10px solid blue; */
+    padding: 200px;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    
 }
 .container-m3 {
     display: flex;
     background-color: lightgray;
     color: black;
     border: 10px solid red;
+    padding: 100px;
 }
 .container-m4 {
     display: flex;
@@ -46,19 +52,20 @@ body{
 }
 
 
-
+/* m1 properties */
 .m1-header {
     justify-content: space-between;
     flex-direction: row;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 .m1-header div {
     display: flex;
 }
 .m1-header div p {
-    padding: 10px;
-    align-self: flex-start;
+    padding: 15px;
+    padding-right: 0px;
+    align-self: center;
 }
 .m1-body {
     display: flex;
@@ -76,4 +83,40 @@ body{
     align-self: center;
     flex: auto;
     text-align: center;
+}
+
+
+/* m2 properties */
+.m2-header{
+    /* border: solid 10px yellow; */
+    text-align: center;
+}
+.m2-body {
+    /* border: solid 10px orange; */
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-content: space-between;
+    width: fit-content;
+    padding: 30px;
+}
+.m2-body .box{
+    border: solid 4px cornflowerblue;
+    height: 110px;
+    width: 110px;
+    border-radius: 14px;
+}
+.m2-body div{
+    /* border: solid 10px yellow; */
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.m3-body {
+    padding: 200px;
+    text
 }
