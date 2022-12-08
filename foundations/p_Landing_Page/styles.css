@@ -33,7 +33,7 @@ body{
     color: black;
     flex-direction: column;
     /* border: 10px solid blue; */
-    padding: 200px;
+    /* padding: 200px; */
     padding-top: 25px;
     padding-bottom: 45px;
     
@@ -43,7 +43,10 @@ body{
     background-color: lightgray;
     color: black;
     border: 10px solid red;
-    padding: 100px;
+    padding: 150px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
 }
 .container-m4 {
     display: flex;
@@ -109,7 +112,7 @@ body{
 }
 .m2-body div{
     /* border: solid 10px yellow; */
-    width: 130px;
+    /* width: 130px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,6 +120,13 @@ body{
 }
 
 .m3-body {
-    padding: 200px;
-    text
+    font-style: italic;
+    font-size: 37px;
+    text-align: left;
+}
+.m3-quote {
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: right;
+    align-self: flex-end;
 }
