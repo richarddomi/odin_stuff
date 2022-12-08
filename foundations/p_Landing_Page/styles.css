@@ -1,5 +1,7 @@
 * {
     font-family: Roboto;
+    padding: 0;
+    /* margin: 0; */
 }
 button {
     background-color: cornflowerblue;
@@ -18,19 +20,40 @@ body{
     flex-direction: column;
 }
 
+a {
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #1F2937;
+    padding-left: 50%;
+    padding-right: 50%;
+    text-align: center;
+    color: white;
+}
+footer p{
+    width: 25em;
+}
+
 .container-m1 {
     display: flex;
     background-color: #1F2937;
     color: white;
-    padding: 50px;
+    padding: 50%;
+    width: 50em;
     flex-direction: column;
     /* border: 10px solid red; */
     padding-top: 6px;
+    padding-bottom: 40px;
 }
 .container-m2 {
     display: flex;
     background-color: whitesmoke;
     color: black;
+    padding: 50%;
+    width: 50em;
     flex-direction: column;
     /* border: 10px solid blue; */
     /* padding: 200px; */
@@ -43,7 +66,8 @@ body{
     background-color: lightgray;
     color: black;
     /* border: 10px solid red; */
-    padding: 150px;
+    padding-top: 25px;
+    padding-bottom: 45px;
     box-sizing: border-box;
     flex-direction: column;
     align-items: center;
@@ -127,6 +151,7 @@ body{
     font-size: 37px;
     text-align: left;
     font-weight: lighter;
+    padding: 4%;
 }
 .m3-quote {
     font-weight: bolder;
