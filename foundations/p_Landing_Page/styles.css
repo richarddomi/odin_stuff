@@ -42,16 +42,18 @@ body{
     display: flex;
     background-color: lightgray;
     color: black;
-    border: 10px solid red;
+    /* border: 10px solid red; */
     padding: 150px;
     box-sizing: border-box;
     flex-direction: column;
     align-items: center;
 }
 .container-m4 {
-    display: flex;
-    background-color: lightblue;
-    border: 10px solid blue;
+    /* display: flex; */
+    /* background-color: cornflowerblue; */
+    /* border: 10px solid blue; */
+    color: white;
+    padding: 50px;
 }
 
 
@@ -119,14 +121,48 @@ body{
     padding: 10px;
 }
 
+/* m3 properties */
 .m3-body {
     font-style: italic;
     font-size: 37px;
     text-align: left;
+    font-weight: lighter;
 }
 .m3-quote {
     font-weight: bolder;
     font-size: 24px;
     text-align: right;
     align-self: flex-end;
+}
+
+/* m4 properties */
+.container-m4 div{
+    display: flex;
+    /* flex-direction: row; */
+    padding: 27px;
+    background-color: cornflowerblue;
+    align-items: center;
+    border-radius: 12px;
+}
+.m4-body{
+    /* border: solid 10px yellow; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: left;
+}
+.m4-body-1{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.m4-body-2{
+    font-size: 16px;
+}
+.m4-button{
+    border: white 2px solid;
+    border-color: white;
+    flex: none;
 }
