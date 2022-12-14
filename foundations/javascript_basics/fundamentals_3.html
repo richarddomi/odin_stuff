@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Fundamentals 3</title>
+</head>
+<body>
+    <script>
+        num = num => num + 7;
+
+        function multiply(x, y) {
+            z = x * y;
+            return z;
+        }
+
+        let s = "";
+
+        function captalize(s) {
+            // first_letter = s.charat(0);
+            // upper_first = first_letter.toUpperCase();
+            // word = s.slice(2,s.length).toLowerCase();
+            // formatted = first_letter + word;
+            formatted = s.replace(/^./,s[0].toUpperCase());
+            return formatted;
+        };
+
+        function lastLetter(l) {
+            length = l.length;
+            last_letter = l.slice(length-1, length);
+            return last_letter;
+        }
+
+
+    </script>
+</body>
+</html>
