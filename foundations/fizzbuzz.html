@@ -14,19 +14,37 @@
 
         let i = 1;
         while (i <= num) {
-            if (i % 3 === 0) {
-                console.log("Fizz");
-            }
-            else if (i % 5 === 0) {
-                console.log("Buzz");
-            } 
-            else if (i & 5 === 0 && i % 3 === 0) {
-                console.log("FizzBuzz");
-            } 
-            else {
-                console.log(i);
-            }
+            // If-Loop method
+            // if (i % 3 === 0) {
+            //     console.log("Fizz");
+            // }
+            // else if (i % 5 === 0) {
+            //     console.log("Buzz");
+            // } 
+            // else if (i & 5 === 0 && i % 3 === 0) {
+            //     console.log("FizzBuzz");
+            // } 
+            // else {
+            //     console.log(i);
+            // }
             // Switch method
+            switch (true) {
+                //Mistake 1: was using i for switch test, should be "true"
+                //Mistake 2: was using standard statement "x % y === 0" and never returned "fizzbuzz", should be !(x % y) to force type
+                case (!(i % 3) && !(i % 5)):
+                    console.log("FizzBuzz");
+                    break;
+                case (!(i % 3)):
+                    console.log("Fizz");
+                    break;
+                case (!(i % 5)):
+                    console.log("Buzz");
+                    break;
+                default:
+                    console.log(i);
+            }
+
+            // Iterator
             i++;
         }
 
