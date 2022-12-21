@@ -10,7 +10,7 @@ for (i; i <= 5; i++) {
     computer_Selection = getComputerChoice();
 
     weight = rpsGame(player_Selection, computer_Selection);
-    console.log(weight);
+    // console.log(weight);
     weight += weight;
 }
 
@@ -57,7 +57,7 @@ function rpsGame(player_Selection, computer_Selection) {
                 console.log("Player wins")
                 return 1;
             } else {
-                console.log("Com Wins");
+                console.log("NPC Wins");
                 return -1;
             };
         };
@@ -66,7 +66,7 @@ function rpsGame(player_Selection, computer_Selection) {
                 console.log("Player wins")
                 return 1;
             } else {
-                console.log("Com Wins");
+                console.log("NPC Wins");
                 return -1;
             };
         };
