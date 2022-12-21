@@ -25,7 +25,7 @@ else {
     console.log("No Winner!");
 };
 
-/// <---------- FUNCTIONS BELOW ---------->
+///            <----------------- FUNCTIONS BELOW ------------------>
 // Random generator
 function getComputerChoice() {
     const random_num = Math.floor(Math.random() * 3 + 1);
@@ -81,5 +81,4 @@ function rpsGame(player_Selection, computer_Selection) {
         };
     };
 
-}
-
+};
