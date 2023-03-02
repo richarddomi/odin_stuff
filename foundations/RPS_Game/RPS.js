@@ -1,11 +1,11 @@
 let player_Selection = " ";
 let computer_Selection = " ";
 let computer_choice = " ";
-let i = 1;
+let i = 0;
 let weight = 0;
 
 // Play 5 rounds of RPS
-for (i; i <= 5; i++) {
+for (i; i < 5; i++) {
     player_Selection = prompt("Rock, paper, or scissors?").toLowerCase();
     computer_Selection = getComputerChoice();
 
